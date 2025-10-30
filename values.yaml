@@ -1,0 +1,11 @@
+apps:
+  - name: nginx
+    repoURL: https://github.com/kubernetes/ingress-nginx.git
+    branch: main
+    path: charts/ingress-nginx
+    namespace: nginx
+  - name: guestbook
+    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    branch: master
+    path: guestbook
+    namespace: guestbook
